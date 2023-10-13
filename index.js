@@ -100,11 +100,15 @@ sellForm.addEventListener('submit',function(){
     const title = document.getElementById('title').value
     const describe = document.getElementById('description').value
     const Price = document.getElementById('price').value
-    
+    const image = document.getElementById('book-upload').value;
+    const author = document.getElementById('author').value;
+
     const books = {
         "title": title,
         "description":describe,
         "price":Price,
+        "image": image,
+        "author": author
     }
     postBooks(books)
 })
