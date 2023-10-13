@@ -1,0 +1,84 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "A Game of Thrones",
+      "author": "George R. R. Martin",
+      "price": 525,
+      "description": "A Game of Thrones is the first novel in A Song of Ice and Fire, a series of fantasy novels by American author George R. R. Martin.This novel is recounting events from various points of view, Martin introduces us to the noble houses of Westeros, the Wall, and the Targaryens",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRE6r9PS-LWAL9BLF_CEuWDF6pWlzMr6wH5KM_-PplALg297f2A"
+    },
+    {
+      "id": "2",
+      "title": "The Great Gatsby",
+      "price": "ksh 999",
+      "author": "F. Scott Fitzge",
+      "description": "Set in Jazz Age New York, it tells the tragic story of Jay Gatsby, a self-made millionaire, and his pursuit of Daisy Buchanan, a wealthy young woman whom he loved in his youth.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Things Fall Apart",
+      "price": "1499",
+      "author": "Chinua Achebe",
+      "description": "The novel chronicles the life of Okonkwo, the leader of an Igbo community, from the events leading up to his banishment from the community for accidentally killing a clansman, through the seven years of his exile, to his return, and it addresses a particular problem of emergent Africa",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTbbv3xudjL3yp7v21FSpFV41dhCg5LbttNkhKWcTsi15q_YjyK"
+    },
+    {
+      "id": "4",
+      "title": "Lord of the Flies",
+      "price": "1999",
+      "author": "William Golding",
+      "description": "group of British boys who are stranded on an uninhabited island and their disastrous attempts to govern themselves.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9b/LordOfTheFliesBookCover.jpg"
+    },
+    {
+      "id": "5",
+      "title": "A Little Life",
+      "price": "899",
+      "author": "Hanya Yanagihara",
+      "description": "A Little Life (2015) follows the lives of four friends in New York City: aspiring actor Willem, moody painter JB, quiet architect Malcolm, and the brilliant, mysterious litigator Jude",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbphzgI6WkqUY8QwpMVAlDWsbORBa16Uj35LtsNyKsaOYhs0Y4"
+    },
+    {
+      "id": "6",
+      "title": "Don Quixote",
+      "price": "2499",
+      "author": "Miguel de Cervantes",
+      "description": "Don Quixote is a classic novel from 1605 which portraits the life and insightful journey of Don Quixote de la Mancha, a Spanish man who seems to be losing his mind on his quest to become a knight and restore chivalry",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Title_page_first_edition_Don_Quijote.jpg/250px-Title_page_first_edition_Don_Quijote.jpg"
+    },
+    {
+      "id": "7",
+      "title": "The Call of the Wild",
+      "price": "2999",
+      "author": "Jack London",
+      "description": "Buck is stolen from his home and sold into service as a sled dog in Alaska. He becomes progressively more primitive and wild in the harsh environment, where he is forced to fight to survive and dominate other dogs.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/JackLondoncallwild.jpg/220px-JackLondoncallwild.jpg"
+    },
+    {
+      "id": "8",
+      "title": "A Visit from the Goon Squad",
+      "price": "699",
+      "author": "Jennifer Egan",
+      "description": "few characters who recur a bit more frequently than others, and broadly around the American music scene: Lou, a coke-snorting, teenage-girl-seducing music producer in the 1970s, becomes the mentor of an untalented young bass player",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSDBMqWrmq90TOVHvpaaONPhntDvjDkUhohImh_rrrhQHLZ3Qfu"
+    },
+    {
+      "id": "9",
+      "title": "Beloved",
+      "price": "1199",
+      "author": "Toni Morrison",
+      "description": " examines the destructive legacy of slavery as it chronicles the life of a Black woman named Sethe, from her pre-Civil War days as a slave in Kentucky to her time in Cincinnati, Ohio, in 1873. ",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT5WY-mHjTSr5IS1BA40gX8l4wVyAvJqWJ-KrzK-7SWVRKdm7KC"
+    },
+    {
+      "id": "10",
+      "title": "The Struggle",
+      "price": "2999",
+      "author": " L. J. Smith",
+      "description": "the life of popular girl Elena Gilbert and her endeavors with the mysterious vampire brothers Stefan and Damon Salvatore.",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR0p89EceJYWClInCOi01lbMOybmOImoZDZZitbJPIo8OzOTna4"
+    }
+  ]
+}

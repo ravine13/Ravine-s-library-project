@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Listing</title>
+    <link rel="stylesheet" href="style.Css">
+</head>
+<body class="light">
+    <header>
+        <h1>Ravine Library</h1>
+        <div class="menu-container">
+            <ul class="menu">
+                <li><a id='sell-btn' href="#">Sell</a></li>
+                <li><a id ='hire-btn' href="#">Hire a Book</a></li>
+            </ul>
+        </div>
+    </header>
+    <form id="sell-form" >
+        <label for="title">title</label>
+        <input id="title" type="text">
+        <label for="description">description</label>
+        <input for="price">price</input>
+        <input id="price" type="text" >
+        <label for="book-upload">Upload a Book:</label>
+        <input type="file" id="book-upload">
+        <input type="submit" value="submit">
+    </form>
+    <form id="hire-form">
+        <label for="title-hire">Title</label>
+        <input id="title-hire" type="text">
+        <label for="description-hire">Description</label>
+        <input id="description-hire" type="text">
+        <label for="lease-price">Lease Price</label>
+        <input id="lease-price" type="text">
+        <input type="submit" value="Submit">
+    </form>
+    <input type="text" id="search-bar" placeholder="Search by title...">
+    <button id="search-button">Search</button>
+    
+    <!-- <ul id="book-bar"></ul> -->
+    <main>
+        <div class="category-dropdown">
+            <label for="category-select">Select Genre:</label>
+            <select id="category-select">
+                <option value="all">All Genres</option>
+                <option value="fictional">Fictional Books</option>
+                <option value="fantasy">Fantasy Books</option>
+                <option value="scifi">Science Fiction Books</option>
+                <option value="mystery">Mystery Books</option>
+                <option value="romance">Romance Books</option>
+                <option value="thriller">Thriller Books</option>
+                <option value="nonfiction">Non-Fiction Books</option>
+                <option value="historical">Historical Fiction</option>
+                <option value="biography">Biography Books</option>
+            </select>
+        </div>
+        <section class="book-list">
+            <article class="book" id="book-1">
+                <img class="book-image" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRE6r9PS-LWAL9BLF_CEuWDF6pWlzMr6wH5KM_-PplALg297f2A" id="image" alt="Book Cover">
+            </article>
+        </section>
+        <section class="book-details show-detail" id="detail">
+                <h2 id="title1">A Game of Thrones</h2>
+                <p id="author1">Author: George R. R. Martin</p>
+                <p id ="price1">Price: ksh 525</p>
+                <p id="description">Description: A Game of Thrones takes place over the course of one year on or near the fictional continent of Westeros. The story begins when King Robert visits the northern castle Winterfell to ask Ned Stark to be his right-hand assistant, or Hand of the King. The previous Hand, Jon Arryn, died under suspicious circumstances.</p>
+                <div>
+                    <button class="buy-button">Buy</button>
+                    <button id="close-book-details">close</button>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Ravine Website</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
