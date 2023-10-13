@@ -21,12 +21,6 @@ close.addEventListener('click',function(){
     details.classList.remove('show-detail')
 })
 
-images.forEach(image => {
-    image.addEventListener('click', function () {
-        //  console.log('Image clicked');
-        details.classList.add('show-detail');
-    });
-})
 
 
 function fetchingBooks(id = 1) {
@@ -71,15 +65,25 @@ function books(array) {
     const bookCard = array.map(function(book){
         
         return ` 
-        <article class="book" id="id">
-        <img src="${book.image}" id="image" alt="Book Cover">
+        <article class="book">
+        <img onclick='displayBookDetail(${book.id})'src="${book.image}" id="${book.id}" alt="Book Cover">
     </article>`
     
     })
     // vitabu.innerHTML = bookHtml.join(' ');
     bookList.innerHTML= bookCard.join(' ');
 }
-
+ function displayBookDetail(id){
+    fetch(`${url}/${id}`)
+    .then(response => response.json())
+    .then(data => {
+        details.classList.add('show-detail')
+        Title.innerText ='Title:'+" "+data.title;
+        Price.innerText ='Ksh:'+" "+ data.price;
+        describy.innerText ='Description:'+" "+ data.description;
+        Author.innerText ='Author:'+" "+ data.author
+    });
+ }
 sellBtn.addEventListener('click',function(){
     sellForm.classList.add("show-form")
 })
@@ -96,6 +100,7 @@ sellForm.addEventListener('submit',function(){
     const title = document.getElementById('title').value
     const describe = document.getElementById('description').value
     const Price = document.getElementById('price').value
+    
     const books = {
         "title": title,
         "description":describe,
@@ -126,16 +131,6 @@ function confirmPurchase() {
 buyButton.forEach((button) => {
     button.addEventListener('click', confirmPurchase);
 });
-const themeButton = document.getElementById('theme-button');
-const body = document.body;
 
-themeButton.addEventListener('click', function () {
-    if (body.classList.contains('light')) {
-        body.classList.remove('light');
-        body.classList.add('dark');
-    } else {
-        body.classList.remove('dark');
-        body.classList.add('light');
-    }
-});
+
 
