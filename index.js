@@ -94,7 +94,19 @@ hireBtn.addEventListener('click',function(){
 hireForm.addEventListener('submit',function(){
     hireForm.classList.remove('show-form')
 })
+hireForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    const processingMessage = document.getElementById('request-processing-message');
+    processingMessage.style.display = 'block';
 
+    setTimeout(function () {
+        
+        processingMessage.style.display = 'none';
+        
+        alert('Your request has been processed. We will contact you shortly.');
+        hireForm.reset(); 
+    }, 3000); 
+});
 sellForm.addEventListener('submit',function(){
     sellForm.classList.remove('show-form')
     const title = document.getElementById('title').value
@@ -135,6 +147,8 @@ function confirmPurchase() {
 buyButton.forEach((button) => {
     button.addEventListener('click', confirmPurchase);
 });
+
+
 
 
 

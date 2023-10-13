@@ -2,7 +2,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-image: url('https://media.istockphoto.com/id/1335708681/photo/stacks-of-books-for-teaching-knowledge-college-library-green-background.jpg?s=612x612&w=0&k=20&c=xsqB09d-hvAbJrnVASDyEd27fn11jSxpgRBDy-eaET0=');
+    /* background-image: url('https://media.istockphoto.com/id/1335708681/photo/stacks-of-books-for-teaching-knowledge-college-library-green-background.jpg?s=612x612&w=0&k=20&c=xsqB09d-hvAbJrnVASDyEd27fn11jSxpgRBDy-eaET0='); */
     background-size: cover; 
     background-repeat: no-repeat;
 }
